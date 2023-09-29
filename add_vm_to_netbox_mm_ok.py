@@ -1,10 +1,12 @@
 import requests
 import json
 import socket
+from config import API_TOKEN
+from config import API_URL
+
+
 
 # NetBox API URL and API token
-API_URL = "http://192.168.0.205:8000/api/"
-API_TOKEN = "d169ce045f10b65d151124c9c47a816fe61d3a75"
 
 # Define the VM name and interface name
 vm_name = socket.gethostname()
