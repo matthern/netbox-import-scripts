@@ -3,11 +3,7 @@ import json
 import socket
 from config import API_TOKEN
 from config import API_URL
-
-
-
 # NetBox API URL and API token
-
 # Define the VM name and interface name
 vm_name = socket.gethostname()
 interface_name = "eth0"  # Change this to your desired interface name
